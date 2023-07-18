@@ -1,0 +1,137 @@
+/* * {
+  outline: 1px solid black;
+} */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+/* ///////共用選擇器/////// */
+/* ///字型大小/// */
+.fz-xl {
+  font-size: 128px;
+}
+.fz-lg {
+  font-size: 40px;
+}
+.fz-md {
+  font-size: 32px;
+}
+.fz-sm {
+  font-size: 20px;
+}
+/* ///行高/// */
+.lh-xl {
+  line-height: 192px;
+}
+.lh-lg {
+  line-height: 60px;
+}
+.lh-md {
+  line-height: 48px;
+}
+.lh-sm {
+  line-height: 30px;
+}
+/* ///margin-bottom/// */
+.mb-xl {
+  margin-bottom: 80px;
+}
+.mb-lg {
+  margin-bottom: 40px;
+}
+.mb-md {
+  margin-bottom: 16px;
+}
+/* ///寬度/// */
+.w-50 {
+  width: 50%;
+}
+/* ///padding-right/// */
+.pr-12 {
+  padding-right: 12px;
+}
+/* ///////全域設定/////// */
+body {
+  color: #000000;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 400;
+  font-family: "Castoro", serif;
+}
+p {
+  margin-bottom: 8px;
+}
+.container {
+  width: 1296px;
+  margin: 0 auto;
+}
+/* ///////大頭照/////// */
+.vito {
+  display: block;
+  margin: auto;
+}
+.text-end {
+  text-align: end;
+}
+.logo {
+  margin-top: 160px;
+}
+h2 {
+  letter-spacing: 0.12em;
+}
+/* ///////自我介紹/////// */
+.intro {
+  background-color: #efefef;
+  padding: 48px 0;
+}
+.intro p {
+  width: 50%;
+  margin-left: auto;
+  padding-left: 12px;
+}
+/* ///////詳細資料/////// */
+h3 {
+  color: #ae0000;
+  border-bottom: 4px solid #ae0000;
+}
+ul {
+  padding-right: 12px;
+}
+li a {
+  color: #000000;
+  text-decoration: none;
+}
+li a:visited {
+  color: #000000;
+}
+.italic {
+  color: #949494;
+  font-style: italic;
+}
+/* ///////頁尾/////// */
+footer {
+  background-color: black;
+  padding: 64px 0;
+  display: flex;
+  justify-content: center;
+  margin-top: 160px;
+}
+footer a {
+  width: 64px;
+  height: 64px;
+  margin: 0 10px;
+  background-size: cover;
+  /* 隱藏內部文字 */
+  text-indent: 101%;
+  overflow: hidden;
+}
+.facebook {
+  background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2023week1/fb.png?raw=true);
+}
+.instagram {
+  background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2023week1/instagram.png?raw=true);
+}
+.line {
+  background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2023week1/line.png?raw=true);
+}
